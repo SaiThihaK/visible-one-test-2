@@ -7,7 +7,6 @@ const RecommendSection = () => {
       <div className={styles.albumWrapper}>
         <Album />
         <Album />
-        <Album />
       </div>
     </div>
   );
