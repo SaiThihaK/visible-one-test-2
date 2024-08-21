@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #dbdcdc;
+    cursor: pointer;
+}
+.container:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.avatar > div{
+    color:black !important
+}
+
+
+

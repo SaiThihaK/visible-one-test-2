@@ -1,0 +1,16 @@
+.imageWrapper{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.imageWrapper > img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.albumTitle{
+    font-size: 12px;
+}
+.albumArtist{
+    font-size: 10px;
+}
