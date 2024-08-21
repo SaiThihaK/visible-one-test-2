@@ -1,0 +1,128 @@
+.playerContainer {
+  display: flex;
+  align-items: center;
+  background-color: #e22a7f;
+  padding: 15px;
+  width: 100%;
+}
+
+.albumArt {
+  width: 50px;
+  height: 50px;
+  background-color: #b04c7e;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.trackInfo {
+  flex: 1;
+}
+
+.trackTitle {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.artistName {
+  font-size: 12px;
+  color: #e5e5e5;
+  margin: 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.controlButton {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.playButton {
+  background-color: #fff;
+  color: #d46a93;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  flex: 1;
+}
+
+.currentTime,
+.totalTime {
+  color: #fff;
+  font-size: 12px;
+}
+
+.progressBarWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.progressBar {
+  width: 100%;
+  cursor: pointer;
+  background-color: #d46a93;
+  height: 4px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volumeContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volumeBarWrapper {
+  width: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.volumeBar {
+  width: 100%;
+  cursor: pointer;
+  background-color: #d46a93;
+  height: 4px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.volumeBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
